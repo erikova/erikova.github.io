@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    height: 80px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15px;
+
+    /*v bloki, ne v odnu stroku*/
+    /*flex wrap wrap*/
+}
+.col-6{
+    width: 50%;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.item1{
+    height: 50px;
+    width: 200px;
+    margin: 10px 0;
+    background-color: darkgray;
+    color: dimgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    height: 50px;
+    width: 90px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-decoration: none;
+    margin: 10px 0;
+}
+.lol{
+    display: inline-block;
+}
+.box{
+    height: 500px;
+    margin-bottom: 40px;
+    margin-left: 249px;
+    margin-right: 161px;
+    background-image: url("https://thumbs.dreamstime.com/b/textured-grey-grunge-background-wallpaper-white-gray-wall-textured-grey-grunge-background-wallpaper-white-gray-wall-168866578.jpg");
+}
+.col-4{
+    margin-top: 430px;
+    width: 33.3%;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+
+}
+
+.box2{
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin: 0 30px;
+}
+.title{
+    font-size: 15pt;
+    display: inline-block;
+    font-family: sans-serif;
+}
+/*background cvet url i kartinka*/
+/*.col-6{*/
+/*    width: 50%;*/
+/*    padding: 0 15px;*/
+/*}*/
+/*.col-4{*/
+/*    width: 33.3%;*/
+/*    padding: 0 15px;*/
+/*}*/
+/*.col-3{*/
+/*    width: 25%;*/
+/*    padding: 0 15px;*/
+/*}*/
+/*.col-12{*/
+/*    width: 100%;*/
+/*    padding: 0 15px;*/
+/*}*/
+/*.item1{*/
+/*    height: 80px;*/
+/*    margin: 10px 0;*/
+/*    background-color: darkblue;*/
+/*    color: navajowhite;*/
+/*}*/
+/*.item2{*/
+/*     height: 120px;*/
+/*     margin: 10px 0;*/
+/*     background-color: grey;*/
+/* }*/
+/*.item3{*/
+/*    height: 120px;*/
+/*    margin: 10px 0;*/
+/*    background-color: darkred;*/
+/*    color: white;*/
+/*}*/
+/*.item4{*/
+/*    height: 80px;*/
+/*    margin: 10px 0;*/
+/*    background-color: darkgreen;*/
+/*    color: white;*/
+/*}*/
+
+/*!*.box{*!*/
+/*!*    width: 300px;*!*/
+/*!*    height: 300px;*!*/
+/*!*    background-color: aqua;*!*/
+
+/*!*    display: flex;*!*/
+/*!*    !*element gibkiy ob'edenit' paragraph*!*!*/
+/*!*    justify-content: space-around;*!*/
+/*!*    !*bez flex/ ne rabotaet. po centru*!*!*/
+/*!*    !*flex-end/ po pravomu krayu*!*!*/
+/*!*    !*flex-start/ viravnivanie po levomu krayu*!*!*/
+/*!*    !*space-between/ po shirine bloka, po krayam & centru*!*!*/
+/*!*    !*space-around/ rastoanie po krayam*!*!*/
+/*!*    !*space-evenly/ odinakovoe rastoyanie u vseh*!*!*/
+
+/*!*    !*align-items: flex-start;*!*!*/
+/*!*    align-items: center;*!*/
+/*!*    !*align-items: flex-end;*!*!*/
+/*!*    !*viravnivanie po gorizontale-center*!*!*/
+/*!*    !*opuskaet elementi vniz-flex-end*!*!*/
+
+/*!*    flex-direction: column;*!*/
+/*!*    !*stolbec *!*!*/
+/*!*    *!*/
+/*!*}*!*/
+/*header-container-dis ssilka*/
+/*logo manu po shirine cont*/
+/*main*/
+/*main container*/
