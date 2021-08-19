@@ -1,0 +1,409 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to bottom left, #8b3d7b, #e32f76);
+}
+
+.main {
+    width: 350px;
+    height: 330px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 150px 0;
+}
+
+.c {
+    background-color: #216cff;
+
+}
+
+
+.attention {
+    width: 1349px;
+    background-color: #216cff;
+    padding: 15px;
+    top: -100px;
+    position: absolute;
+    left: 0;
+    /*    right: 0;*/
+    /*    text-align: center;*/
+}
+
+.fadeInTop {
+    animation-name: fadeInTop;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-direction: alternate-reverse;
+
+    /*fill mode ubrat on propadet esli ubrat*/
+}
+
+@keyframes fadeInTop {
+    from {
+        top: -100px;
+    }
+    to {
+        top: 0
+    }
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    background-color: #216cff;
+    /*margin: 0 auto;*/
+    border-radius: 50%;
+    position: absolute;
+    top: 250px;
+    left: 750px;
+}
+
+#circle {
+    width: 40px;
+    height: 40px;
+    background-color: #216cff;
+    /*margin: 0 auto;*/
+    border-radius: 50%;
+    position: absolute;
+    top: 250px;
+    left: 550px;
+}
+
+#circle2 {
+    width: 50px;
+    height: 15px;
+    background-color: #8b3d7b;
+    /*margin: 0 auto;*/
+    border-radius: 30px;
+    position: absolute;
+    top: 350px;
+    left: 650px;
+}
+
+#circle3 {
+    width: 15px;
+    height: 15px;
+    background-color: #216cff;
+    /*margin: 0 auto;*/
+    border-radius: 50%;
+    position: absolute;
+    top: 320px;
+    left: 550px;
+    animation: slideBlock 1.5s ease-in infinite;
+    animation-fill-mode: forwards;
+    animation-direction: alternate-reverse;
+
+}
+
+@keyframes slideBlock {
+    from {
+        top: 320px;
+    }
+    to {
+        top: 600px;
+    }
+}
+
+#circle4 {
+    width: 15px;
+    height: 15px;
+    background-color: #216cff;
+    /*margin: 0 auto;*/
+    border-radius: 50%;
+    position: absolute;
+    top: 340px;
+    left: 600px;
+    animation: slideBlock2 1s ease-in infinite;
+    animation-fill-mode: forwards;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes slideBlock2 {
+    from {
+        top: 315px;
+    }
+    to {
+        top: 600px;
+    }
+}
+
+#circle5 {
+    width: 15px;
+    height: 15px;
+    background-color: #216cff;
+    /*margin: 0 auto;*/
+    border-radius: 50%;
+    position: absolute;
+    top: 390px;
+    left: 570px;
+    animation: slideBlock3 1.2s ease-in infinite;
+    animation-fill-mode: forwards;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes slideBlock3 {
+    from {
+        top: 370px;
+    }
+    to {
+        top: 600px;
+    }
+}
+
+#circle6 {
+    width: 15px;
+    height: 15px;
+    background-color: #216cff;
+    /*margin: 0 auto;*/
+    border-radius: 50%;
+    position: absolute;
+    top: 320px;
+    left: 750px;
+    animation: slideBlock4 1s ease-in infinite;
+    animation-fill-mode: forwards;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes slideBlock4 {
+    from {
+        top: 310px;
+    }
+    to {
+        top: 600px;
+    }
+}
+
+#circle7 {
+    width: 15px;
+    height: 15px;
+    background-color: #216cff;
+    /*margin: 0 auto;*/
+    border-radius: 50%;
+    position: absolute;
+    top: 390px;
+    left: 770px;
+    animation: slideBlock5 1.1s ease-in infinite;
+    animation-fill-mode: forwards;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes slideBlock5 {
+    from {
+        top: 370px;
+    }
+    to {
+        top: 600px;
+    }
+}
+
+#circle8 {
+    width: 15px;
+    height: 15px;
+    background-color: #216cff;
+    /*margin: 0 auto;*/
+    border-radius: 50%;
+    position: absolute;
+    top: 350px;
+    left: 790px;
+    animation: slideBlock6 1.3s ease-in infinite;
+    animation-fill-mode: forwards;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes slideBlock6 {
+    from {
+        top: 330px;
+    }
+    to {
+        top: 600px;
+    }
+}
+
+#circle9 {
+    width: 300px;
+    height: 20px;
+    background-color: #216cff;
+    /*margin: 0 auto;*/
+    border-radius: 50%;
+    position: absolute;
+    top: 600px;
+    left: 520px;
+    animation: slideBlock10 1.3s ease-in infinite;
+    animation-fill-mode: forwards;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes slideBlock10 {
+    from {
+        right: 250px;
+    }
+    to {
+        left: 555px;
+    }
+}
+
+
+/*.block {*/
+/*    width: 250px;*/
+/*    height: 250px;*/
+/*    background-color: blue;*/
+/*    position: absolute;*/
+/*    !*animacia rapotaet s absolut *!*/
+/*    animation: slideBlock 2s ease-in;*/
+/*    !*ease out zamedlyaet potom uskoraet*!*/
+/*    !*ease in-out ravnomerno*!*/
+/*    !*ease linear*!*/
+/*    !*slideBlock name luboe*!*/
+/*}*/
+
+
+/*@keyframes slideBlock {*/
+/*    from {*/
+/*        top: 0;*/
+/*        left: 0;*/
+/*    }*/
+/*    to {*/
+/*        top: 0;*/
+/*        left: 1000px;*/
+/*    }*/
+/*}*/
+
+/*.attention {*/
+/*    background-color: orangered;*/
+/*    padding: 15px;*/
+/*    top: -100px;*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*!*    right: 0;*!*/
+/*!*    text-align: center;*!*/
+/*!*}*!*/
+
+/*.fadeInTop {*/
+/*    animation-name: fadeInTop;*/
+/*    animation-duration: 3s;*/
+/*    animation-delay: 1s;*/
+/*    animation-fill-mode: forwards;*/
+/*    !*fill mode ubrat on propadet esli ubrat*!*/
+/*}*/
+
+/*@keyframes fadeInTop {*/
+/*    from {*/
+/*        top: -100px;*/
+/*    }*/
+/*    to {*/
+/*        top: 0*/
+/*    }*/
+/*!*}*!*/
+/*.block{*/
+/*    width: 100px;*/
+/*    padding: 20px 0;*/
+/*    text-align: center;*/
+/*    position: absolute;*/
+/*    animation: move 5s infinite;*/
+/*}*/
+
+/*.normal{*/
+/*    background-color: aqua;*/
+/*    animation-direction: normal;*/
+/*}*/
+
+/*.alternate{*/
+/*    background-color: tomato;*/
+/*    animation-direction: alternate;*/
+/*    top: 100px;*/
+/*}*/
+
+/*.reverse{*/
+/*    background-color: yellow;*/
+/*    animation-direction: reverse;*/
+/*    top: 200px;*/
+/*}*/
+
+/*.alternate-reverse{*/
+/*    background-color: orange;*/
+/*animation-direction: alternate-reverse;*/
+/*    top: 300px;*/
+/*}*/
+
+/*@keyframes move {*/
+/*    from{*/
+/*        left: 0;*/
+/*    }*/
+/*    to{*/
+/*        left: 100%;*/
+/*        transform: translateX(-100px);*/
+/*    }*/
+
+/*}*/
+
+
+/*.blink{*/
+/*    font-size: 30px;*/
+/*    animation: blink 1s;*/
+/*    animation-iteration-count: infinite;*/
+/*    !*opacity: 0;*!*/
+/*}*/
+
+/*@keyframes blink {*/
+/*    0%{opacity: 1;}*/
+/*    50%{opacity: 0;}*/
+/*    100%{opacity: 1;}*/
+/*}*/
+
+/*.play{*/
+/*    overflow: hidden;*/
+/*overflow unikalnoe svoistvo delaet*/
+/*    !*overflow:scroll procrutca*!*/
+/*    white-space: nowrap;*/
+/*    animation: play 3s linear infinite;*/
+/*    !*30s duration dlitelnost*!*/
+/*    !*linear ravnomerno*!*/
+/*}*/
+
+/*.play:hover{*/
+/*    animation-play-state: paused;*/
+/*    !*navodim mishkoi i on ostanavlivaet*!*/
+/*}*/
+
+/*@keyframes play {*/
+/*    from{*/
+/*        text-indent: 100%;*/
+/*        !*velichina otstupa pervoi stroki*!*/
+/*    }*/
+/*    to{*/
+/*        text-indent: -100%;*/
+/*    }*/
+/*}*/
+
+/*.ball{*/
+/*    height: 300px;*/
+/*    width: 300px;*/
+/*    animation: ball 3s 3s infinite;*/
+/*    animation-fill-mode: both;*/
+/*}*/
+
+/*@keyframes ball {*/
+/*    from{*/
+/*        transform: translateX(0) rotate(0);*/
+/*    }*/
+/*    to{*/
+/*        transform: translateX(800px) rotate(2turn);*/
+/*    }*/
+
+/*}*/
