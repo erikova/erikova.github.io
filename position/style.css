@@ -1,0 +1,314 @@
+
+/** {*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+/*.main {*/
+/*    width: 520px;*/
+/*    height: 520px;*/
+/*    background-color: #ce3279;*/
+/*    margin: 0 auto;*/
+/*}*/
+
+/*.parent-1 {*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    background-color: aqua;*/
+/*    border: 5px solid red;*/
+/*    position: relative;*/
+/*    top: 15px;*/
+/*    left: 15px;*/
+/*}*/
+
+/*.block-1 {*/
+/*    width: 100%;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    margin: 10px 0;*/
+/*}*/
+
+/*.chiled-1 {*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    border-top: 5px solid red;*/
+/*    border-left: 5px solid red;*/
+/*    position: absolute;*/
+/*    top: -15px;*/
+/*    left: -15px;*/
+/*}*/
+
+/*.chiled-2 {*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    border-bottom: 5px solid red;*/
+/*    border-right: 5px solid red;*/
+/*    position: absolute;*/
+/*    bottom: -15px;*/
+/*    right: -15px;*/
+/*}*/
+
+/*.parent-2 {*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    background-color: aqua;*/
+/*    border: 5px solid red;*/
+/*    position: relative;*/
+/*    top: 15px;*/
+/*    right: 15px;*/
+/*}*/
+
+/*.chiled-3 {*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    border-top: 5px solid red;*/
+/*    border-left: 5px solid red;*/
+/*    position: absolute;*/
+/*    top: -15px;*/
+/*    left: -15px;*/
+/*}*/
+
+/*.chiled-4 {*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    border-bottom: 5px solid red;*/
+/*    border-right: 5px solid red;*/
+/*    position: absolute;*/
+/*    bottom: -15px;*/
+/*    right: -15px;*/
+/*}*/
+
+/*.block-2 {*/
+/*    width: 100%;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    text-align: center;*/
+/*    margin: 90px 0;*/
+/*}*/
+
+/*.parent-3 {*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    background-color: aqua;*/
+/*    border: 5px solid red;*/
+/*    position: relative;*/
+/*}*/
+
+/*.chiled-5 {*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    border-top: 5px solid red;*/
+/*    border-left: 5px solid red;*/
+/*    position: absolute;*/
+/*    top: -15px;*/
+/*    left: -15px;*/
+/*}*/
+
+/*.chiled-6 {*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    border-bottom: 5px solid red;*/
+/*    border-right: 5px solid red;*/
+/*    position: absolute;*/
+/*    bottom: -15px;*/
+/*    right: -15px;*/
+/*}*/
+
+/*.parent-4 {*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    background-color: aqua;*/
+/*    border: 5px solid red;*/
+/*    position: relative;*/
+/*    top: 15px;*/
+/*    left: 15px;*/
+/*}*/
+
+/*.block-3 {*/
+/*    width: 100%;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    margin: 10px 0;*/
+/*}*/
+
+/*.chiled-7 {*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    border-top: 5px solid red;*/
+/*    border-left: 5px solid red;*/
+/*    position: absolute;*/
+/*    top: -15px;*/
+/*    left: -15px;*/
+/*}*/
+
+/*.chiled-8 {*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    border-bottom: 5px solid red;*/
+/*    border-right: 5px solid red;*/
+/*    position: absolute;*/
+/*    bottom: -15px;*/
+/*    right: -15px;*/
+/*}*/
+
+/*.parent-5 {*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    background-color: aqua;*/
+/*    border: 5px solid red;*/
+/*    position: relative;*/
+/*    top: 15px;*/
+/*    right: 15px;*/
+/*}*/
+
+/*.chiled-9 {*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    border-top: 5px solid red;*/
+/*    border-left: 5px solid red;*/
+/*    position: absolute;*/
+/*    top: -15px;*/
+/*    left: -15px;*/
+/*}*/
+
+/*.chiled-10 {*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    border-bottom: 5px solid red;*/
+/*    border-right: 5px solid red;*/
+/*    position: absolute;*/
+/*    bottom: -15px;*/
+/*    right: -15px;*/
+/*}*/
+
+/*relative otnositelno mesto*/
+/*!*relative-roditel-div*!*/
+/*fix s pomoshu kordinat*/
+/*!*!*element-docherniy*!*!*/
+/*!*!*otnositelno body pozitcioniruet-position:absilute*!*!*/
+/*!*absilute*.absoluted{*!*/
+/*    position: absolute;*/
+/*    top: 10px;*/
+/*    left: 50px;*/
+/*    border: 2px solid blue;*/
+/*    background-color: yellow;*/
+/*    padding: 10px;*/
+/*    margin: 10px;*/
+/*}*/
+
+
+/*.box{*/
+/*    display: inline-block;*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*    background-color: tomato;*/
+/*    margin: 10px;*/
+/*}*/
+/*!*#two{*!*/
+/*!*    position: relative;*!*/
+/*!*}*!*/
+/*.outer{*/
+/*    width: 300px;*/
+/*    height: 500px;*/
+/*    background-color: yellow;*/
+/*    padding-left: 150px;*/
+/*    padding-right: 300px;*/
+/*    overflow: scroll;*/
+/*}*/
+/*!*.item{*!*/
+/*!*    background-color: green;*!*/
+/*!*    width: 100px;*!*/
+/*!*    height: 100px;*!*/
+/*!*    margin: 20px;*!*/
+/*!*    color: #ffffff;*!*/
+/*!*}*!*/
+/*!*#five{*!*/
+/*!*position: fixed;*!*/
+/*!*    top: 80px;*!*/
+/*!*    left: 30px;*!*/
+/*!*}*!*/
+/*!*!*p{*!*!*/
+/*!*    background-color: orange;*!*/
+/*!*    border: 2px solid black;*!*/
+/*!*    padding: 10px;*!*/
+/*!*    margin: 10px;*!*/
+/*!*}*!*/
+
+
+/*!*#two{*!*/
+/*!*    position: relative;*!*/
+/*!*    top: 50px;*!*/
+/*!*    left: 30px;*!*/
+/*!*    background-color: yellow;*!*/
+/*!*}*!*/
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.block {
+    width: 300px;
+    height: 200px;
+    background-color: yellow;
+    border: 2px solid blue;
+    text-align: center;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: tomato;
+    border-radius: 50%;
+    border: 2px solid blue;
+position: absolute;
+    /*/*zapomni*!tolko s position absolut*/
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title{
+    margin: 40px 0 20px;
+}
+.btn{
+    padding: 10px 15px;
+    background-color: aqua;
+    border: 1px solid blue;
+    border-radius: 8px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.6s;
+}
+/*psevdo class*/
+.btn:hover{
+    background-color: darkgray;
+    transition: 0.6s;
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
