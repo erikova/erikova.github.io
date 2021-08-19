@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form>
+    <!--    Первый способ-->
+    <label>
+        Ведите логин
+        <input type="text">
+    </label>
+    <!--Второй способ-->
+    <label for="password">
+        Введите логин
+    </label>
+    <input type="password" id="password">
+    <!--ramka-->
+    <fieldset>
+        <legend>First Block</legend>
+        <label>
+            <!--            placeholder podskazka-->
+            <input type="text" placeholder="Ваше имя">
+        </label>
+        <label>
+            <!--            pattern pravilo po kotoromu nuzhno sledovat-->
+            <!--            required obazatelno zapolnil yacheiku-->
+            <input type="number" pattern="[0-9] {3}" required>
+        </label>
+        <!--        3, do treh ,3 ot treh i bolshe-->
+        <label>
+            <input type="number" pattern="[0-9] {3,}" required>
+        </label>
+        <label>
+            <input type="number" pattern="[0-9] {3,}" required>
+        </label>
+        <label>
+            <input type="email" required>
+        </label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Second Block</legend>
+        <label>
+            муж
+            <input type="radio" name="gender">
+        </label>
+        <label>
+            жен
+            <input type="radio" name="gender">
+        </label>
+        <br>
+<!--        radio odin varik krug-->
+<!--        checkbox neskolko variantov-->
+        <label>
+<!--            selected po umolchaniu stoit lang-->
+<!--            cheked otmecheno-->
+<!--            disable galochku nelza nazhat-->
+            true
+            <input type="checkbox" disabled>
+        </label>
+        <label>
+            false
+            <input type="checkbox">
+        </label>
+        <br>
+        <br>
+        <label>
+            <input type="date">
+        </label>
+        <br>
+        <br>
+        <label>
+            Расскажите о себе: <br>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </label>
+
+        <label for="lang">
+            <select name="" id="lang">
+                <option disabled>Выберите язык</option>
+                <option value="Кыргызский">Кыргызский</option>
+                <option value="Русский">Русский</option>
+                <option value="Английский" selected>Английский</option>
+            </select>
+
+        </label>
+        <label>
+            <input type="submit" value="Зарегестрироваться">
+        </label>
+<!--        кнопка button style legche +img-->
+        <button type="submit">Зарегестрироваться</button>
+        <label>
+            <input type="color">
+        </label>
+<!--        reiting-->
+        <label>
+            <input type="range">
+        </label>
+        <input type="reset">
+    </fieldset>
+
+
+</form>
+
+
+</body>
+</html>
