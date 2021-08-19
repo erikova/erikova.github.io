@@ -1,0 +1,669 @@
+body {
+    background-color: #ffffe0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.title {
+    text-align: center;
+    color: #cc0000;
+    font-size: 12pt;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.subtitle {
+    text-transform: uppercase;
+    font-size: small;
+    /*text-transform: lowercase;*/
+    /*/*text-transform: capitalize;*! заглавные плюс обычные*/
+}
+
+#text {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+.subtitle2 {
+    text-transform: uppercase;
+    font-size: small;
+}
+
+.title-number {
+    text-align: center;
+    color: #cc0000;
+    font-size: 12pt;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+#text2 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text3 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text4 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text5 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text6 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text7 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text8 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text9 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text10 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text11 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text12 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text13 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text14 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text15 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text16 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text17 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text18 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text19 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text20 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text21 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text22 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text23 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text24 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text25 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text26 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text27 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text28 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text29 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text30 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text31 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text32 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text33 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text34 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text35 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text36 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text37 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text38 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text39 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text40 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text41 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text42 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text43 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text44 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text45 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text46 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text47 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text48 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text49 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text50 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text51 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text52 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text53 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text54 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text55 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text56 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text57 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text58 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text59 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text60 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text61 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text62 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text63 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text64 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text65 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text66 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text67 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text68 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text69 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text70 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text71 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text72 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text73 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text74 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text75 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text76 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text77 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text78 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text79 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text80 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text81 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+#text82{
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+#text83{
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+}
+
+
+
+/*ispol'zovat'*/
+/**{*/
+/*    margin: 0;*/
+/*    !*vneshniy otstup*!*/
+/*    padding: 0;*/
+/*    !*vnutrenniy otstup*!*/
+/*    box-sizing: border-box;*/
+
+/*}*/
+/*.block1{*/
+/*    width: 250px;*/
+/*    height: 250px;*/
+/*    background-color: hotpink;*/
+/*    display: inline-block;*/
+/*    !*padding: 20px;*!*/
+/*    !*padding: 10px 30px;*!*/
+/*    !*padding: 10px 15px 5px;*!*/
+/*    !*padding; 10px 20px 30px 40px*!*/
+/*    padding-bottom: 30px;*/
+/*    padding-left: 40px;*/
+/*    padding-right: 10px;*/
+/*    padding-top: 20px;*/
+
+
+/*    margin: 15px;*/
+
+/*    border: 10px solid deeppink;*/
+/*    !*border: 10px dotted deeppink;*!*/
+/*    !*border: 10px dashed deeppink;*!*/
+
+/*    border-radius: 50%;*/
+
+
+/*}*/
+
+
+/*.block2{*/
+/*    width: 250px;*/
+/*    height: 250px;*/
+/*    background-color: deeppink;*/
+/*    display: inline-block;*/
+/*    padding-bottom: 30px;*/
+/*    padding-left: 40px;*/
+/*    padding-right: 10px;*/
+/*    padding-top: 20px;*/
+
+
+/*    margin: 15px;*/
+
+/*    border: 10px solid deeppink;*/
+/*}*/
+
+

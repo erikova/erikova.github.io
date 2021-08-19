@@ -1,0 +1,40 @@
+.title{
+    margin-bottom: 4px;
+    margin-top: 4px;
+    font-size: larger;
+
+}
+.block{
+    width: 300px;
+    height: 320px;
+    text-align: center;
+    padding: 15px;
+    border: 5px dashed black;
+    display: inline-block;
+    margin: 10px 15px;
+    box-sizing: border-box;
+}
+.block1{
+    background-color: #cc0000;
+}
+.block2{
+    background-color: rebeccapurple;
+}
+.block3{
+    background-color:forestgreen;
+}
+.block4{
+    background-color: navajowhite;
+}
+.block5{
+    background-color: teal;
+}
+.block6{
+    background-color: hotpink;
+}
+.block7{
+    background-color: cadetblue;
+}
+.block8{
+    background-color:darkorange;
+}
