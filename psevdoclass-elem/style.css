@@ -1,0 +1,84 @@
+/*1*/
+
+/*b:first-child{*/
+/*    color: red;*/
+/*}*/
+
+/*2*/
+
+/*.content {*/
+/*    background-color: yellow;*/
+/*}*/
+
+/*.content :first-child {*/
+/*    padding: 10px;*/
+/*}*/
+
+/*.content :last-child {*/
+/*    background-color: aqua;*/
+/*    height: 20px;*/
+/*}*/
+
+/*3*/
+
+/*table{*/
+/*    width: 800px;*/
+/*    border-spacing: 0;*/
+/*rastoyanie mezhdu yacheykami*/
+/*}*/
+/*td:nth-child(1){*/
+/*    background-color: yellow;*/
+/*}*/
+/*!*chetnoe*!*/
+/*tr:nth-child(even){*/
+/*    background-color: aqua;*/
+/*}*/
+/*!*nechetnoe element*!*/
+/*tr:nth-child(odd){*/
+/*    background-color: red;*/
+/*}*/
+/*td:nth-last-child(odd){*/
+/*    background-color: greenyellow;*/
+/*}*/
+
+/*4*/
+
+/*h2:target{*/
+/*    background-color: orange;*/
+/*}*/
+
+/*5*/
+
+/*span obroshaetsya k slovam*/
+/*input:checked+span{*/
+/*    background-color: orange;*/
+/*}*/
+
+/*6*/
+
+/*not ne trogal element*/
+/*valid zakrasit esli pravilno*/
+
+/*input:not([type='submit']):valid{*/
+/*    background-color: greenyellow;*/
+/*}*/
+/*input:invalid{*/
+/*    background-color: red;*/
+/*}*/
+
+/*7*/
+
+/*li{*/
+/*    list-style: none;*/
+/*    !*tochki ubral*!*/
+/*}*/
+/*li::before{*/
+/*    content: "@";*/
+/*    !*vmesto tochek*!*/
+/*}*/
+/*.element::after{*/
+/*    content: "Привет Мир!!!";*/
+/*    color: red;*/
+/*    background-color: aqua;*/
+/*    font-size: 30px;*/
+/*}*/
