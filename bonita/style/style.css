@@ -1,0 +1,237 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header, main, footer{
+    height: 100vh;
+}
+.attention {
+    width: 100%;
+    background-color: #cc0001;
+    color: white;
+    font-family: sans-serif;
+    padding: 15px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.fadeInTop {
+    animation-name: fadeInTop;
+    animation-duration: 4s;
+    animation-delay: 4s;
+    /*время ухода банера*/
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-direction: alternate-reverse;
+    /*fill mode ubrat on propadet esli ubrat*/
+}
+
+@keyframes fadeInTop {
+    from {
+        top: -100px;
+    }
+    to {
+        top: 0
+    }
+}
+
+/*О компании*/
+.phone-reg {
+    width: 100%;
+    height: 3%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-come {
+    text-decoration: none;
+    color: #969696;
+    font-size: 12px;
+}
+
+.contact {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-contact {
+    text-decoration: none;
+    color: #969696;
+    font-size: 15px;
+}
+
+/*Главное меню*/
+nav{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-us{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.text-about-us{
+    color: #222222;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.img-logo{
+    height: 94px;
+    display: flex;
+}
+
+.logo{
+    width: 100%;
+    height: 100%;
+}
+
+.search{
+    display: flex;
+align-items: center;
+    height: 100%;
+}
+
+.text-search{
+    height: 40px;
+    width: 280px;
+    border-radius: 15px;
+}
+/*.button{*/
+/*    height: 30px;*/
+/*  width: 70px;*/
+/*    border-radius: 15px;*/
+/*}*/
+
+.second {
+    width: 80px;
+    height: 35px;
+    border-radius: 3em;
+    border-color: #1abc9c;
+    color: #fff;
+    background-image: -webkit-linear-gradient(left, rgba(26, 188, 156, 0.6), rgba(26, 188, 156, 0.6) 5%, #1abc9c 5%, #1abc9c 10%, rgba(26, 188, 156, 0.6) 10%, rgba(26, 188, 156, 0.6) 15%, #1abc9c 15%, #1abc9c 20%, rgba(26, 188, 156, 0.6) 20%, rgba(26, 188, 156, 0.6) 25%, #1abc9c 25%, #1abc9c 30%, rgba(26, 188, 156, 0.6) 30%, rgba(26, 188, 156, 0.6) 35%, #1abc9c 35%, #1abc9c 40%, rgba(26, 188, 156, 0.6) 40%, rgba(26, 188, 156, 0.6) 45%, #1abc9c 45%, #1abc9c 50%, rgba(26, 188, 156, 0.6) 50%, rgba(26, 188, 156, 0.6) 55%, #1abc9c 55%, #1abc9c 60%, rgba(26, 188, 156, 0.6) 60%, rgba(26, 188, 156, 0.6) 65%, #1abc9c 65%, #1abc9c 70%, rgba(26, 188, 156, 0.6) 70%, rgba(26, 188, 156, 0.6) 75%, #1abc9c 75%, #1abc9c 80%, rgba(26, 188, 156, 0.6) 80%, rgba(26, 188, 156, 0.6) 85%, #1abc9c 85%, #1abc9c 90%, rgba(26, 188, 156, 0.6) 90%, rgba(26, 188, 156, 0.6) 95%, #1abc9c 95%, #1abc9c 100%);
+    background-image: linear-gradient(to right, rgba(26, 188, 156, 0.6), rgba(26, 188, 156, 0.6) 5%, #1abc9c 5%, #1abc9c 10%, rgba(26, 188, 156, 0.6) 10%, rgba(26, 188, 156, 0.6) 15%, #1abc9c 15%, #1abc9c 20%, rgba(26, 188, 156, 0.6) 20%, rgba(26, 188, 156, 0.6) 25%, #1abc9c 25%, #1abc9c 30%, rgba(26, 188, 156, 0.6) 30%, rgba(26, 188, 156, 0.6) 35%, #1abc9c 35%, #1abc9c 40%, rgba(26, 188, 156, 0.6) 40%, rgba(26, 188, 156, 0.6) 45%, #1abc9c 45%, #1abc9c 50%, rgba(26, 188, 156, 0.6) 50%, rgba(26, 188, 156, 0.6) 55%, #1abc9c 55%, #1abc9c 60%, rgba(26, 188, 156, 0.6) 60%, rgba(26, 188, 156, 0.6) 65%, #1abc9c 65%, #1abc9c 70%, rgba(26, 188, 156, 0.6) 70%, rgba(26, 188, 156, 0.6) 75%, #1abc9c 75%, #1abc9c 80%, rgba(26, 188, 156, 0.6) 80%, rgba(26, 188, 156, 0.6) 85%, #1abc9c 85%, #1abc9c 90%, rgba(26, 188, 156, 0.6) 90%, rgba(26, 188, 156, 0.6) 95%, #1abc9c 95%, #1abc9c 100%);
+    background-position: 0 0;
+    background-size: 100%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+}
+.second:hover {
+    background-position: 100px;
+}
+
+.in-stock{
+    width: 100%;
+    height: 8%;
+    background-color: black ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-in-stock{
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+/*owl-carousel*/
+.owl-carousel{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.owl-carousel .item{
+    width: 100%;
+    height: 460px;
+    margin: auto;
+}
+.owl-prev, .owl-next {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 60%;
+    right: 5%;
+    border-radius: 50% !important;
+    background-color: #F1F1F1 !important;
+    /*opacity: 0.6;*/
+}
+
+/*новая колекция*/
+
+.new-watches {
+    height: 100vh;
+    width: 100%;
+    color: black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title-watch{
+    padding: 50px;
+    /*background-color: #cc0001;*/
+}
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.line {
+    width: 10%;
+    margin: auto;
+    border: 1px solid black;
+}
+.new-watches-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.new-watch-item {
+    width: 17%;
+    /*padding: 1px;*/
+}
+.new-watch-img {
+    height: 230px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.nn{
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
